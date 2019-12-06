@@ -4,12 +4,12 @@ free;
 # Check Process using most memory
 top;        # Press 'm' to sort by memory 
             # (OR)
-            # Use ps aux and sort by mem, Pipe to aux for printing
+# Use ps aux and sort by mem, Pipe to aux for printing
 ps aux --sort=-%mem | awk 'NR<=10{print $0}';
 
 # Check current dir(s) for 10 Largest files sorted by disk usage(block size)
 du -h . -d=2 | sort -nr | head -n10;
-                                    # du = disk usage
+                                        # du = disk usage
                                         # -sh = show human readable
                                         # . = start in current working dir
                                         # -d=2 = max recursive depth of 1 directories
