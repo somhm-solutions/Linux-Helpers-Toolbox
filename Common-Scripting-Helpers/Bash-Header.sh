@@ -22,4 +22,4 @@ TAB="";
 printf "Now creating file...\nTitle: $TITLE\nAuthor: $AUTHOR\nOutput Path: $TITLE";
 printf "\n#/bin/bash\n# Title: $TITLE\n# Author: $AUTHOR \n# Desc:" > $TITLE;
 printf "\n<<COMMENT" >> $TITLE;
-printf ""$TAB"> Usage:> Args:$TAB> Functions:$TAB> Example:\nCOMMENT" >> $TITLE;
+printf ""$TAB" > Usage:> Args:$TAB> Functions:$TAB> Example:\nCOMMENT" >> $TITLE;
