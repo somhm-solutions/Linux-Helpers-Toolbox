@@ -1,4 +1,4 @@
-# **Git**
+# **Downloading Files**
 
 ## Contents:
 	* *Gpg-Verify.sh*
@@ -21,24 +21,3 @@
 	* *Etc*:
 
 ## Notes:* *[option]*: # **Downloading-Files**
-
-## Contents:
-
-### **Description**:
-	* *Purpose*:
-	* *Dependencies*:
-	* *Usage*:
-	* *Examples*:
-
-## *Testing*
-### *Test Input*
-	* *Parameters*:
-	* *Actions*:
-
-### Test Output
-	* *Output*:
-	* *Screenshots*:
-	* *Video*:
-	* *Etc*:
-
-## Notes:* *[option]*: 

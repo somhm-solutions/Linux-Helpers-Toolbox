@@ -21,9 +21,9 @@ FILETYPE=".md";
 # Build Template
 function create_readme(){
     printf "# **$REPO_NAME**" >> "$FILE_NAME"$FILETYPE;
-    printf "\n\n## Contents:" >>  "$FILE_NAME"$FILETYPE; 
     printf "\n\n### **Description**:" >> "$FILE_NAME"$FILETYPE;
     printf "\n\t* *Purpose*:" >> "$FILE_NAME"$FILETYPE;
+    printf "\n\t* *Contents*:" >>  "$FILE_NAME"$FILETYPE; 
     printf "\n\t* *Dependencies*:" >> "$FILE_NAME"$FILETYPE;
     printf "\n\t* *Usage*:" >> "$FILE_NAME"$FILETYPE;
     printf "\n\t* *Examples*:" >> "$FILE_NAME"$FILETYPE;
